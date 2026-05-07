@@ -1,5 +1,11 @@
+import Hero from "./Hero";
+
 function Landing() {
-  return <div>Landing</div>;
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
 
 export default Landing;
