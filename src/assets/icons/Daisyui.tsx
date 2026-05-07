@@ -16,8 +16,8 @@ function Daisyui({ className }: { className?: string }) {
           fx="-.044%"
           fy="-.044%"
         >
-          <stop offset="0%" stop-color="#ffe600" />
-          <stop offset="100%" stop-color="#ffa573" />
+          <stop offset="0%" stopColor="#ffe600" />
+          <stop offset="100%" stopColor="#ffa573" />
         </radialGradient>
       </defs>
       <g opacity="0.7">
@@ -74,10 +74,10 @@ function Daisyui({ className }: { className?: string }) {
         fill="#ffab89"
         d="m74.548 97.145l8.627-2.312a4.466 4.466 0 0 1 2.312 8.627l-8.627 2.311a4.466 4.466 0 1 1-2.312-8.626"
       />
-      <g stroke-linecap="round" stroke-width="12">
+      <g strokeLinecap="round" strokeWidth="12">
         <path
           stroke="#8b2c0c"
-          stroke-opacity="0.05"
+          strokeOpacity="0.05"
           d="M118.24 143.915c2.355 2.61 6.532 4.466 10.048 4.466c3.514 0 7.692-1.857 10.047-4.466"
         />
         <path
@@ -93,7 +93,7 @@ function Daisyui({ className }: { className?: string }) {
           height="33.491"
           x="2.232"
           y="3.349"
-          fill-opacity="0.05"
+          fillOpacity="0.05"
           rx="16.746"
         />
         <path
@@ -101,7 +101,7 @@ function Daisyui({ className }: { className?: string }) {
           d="M6.343 23.443c1.84-5.203 6.801-8.93 12.634-8.93s10.795 3.728 12.635 8.932c-1.84 5.202-6.802 8.93-12.634 8.93c-5.834 0-10.796-3.729-12.635-8.932"
         />
         <path
-          fill-opacity="0.35"
+          fillOpacity="0.35"
           d="M30.166 26.352a13.33 13.33 0 0 0 2.21-7.373c0-7.4-5.999-13.397-13.397-13.397S5.582 11.58 5.582 18.979c0 2.442.654 4.732 1.796 6.704a13.39 13.39 0 0 1 11.187-6.024c4.956 0 9.284 2.692 11.6 6.693"
         />
         <rect width="15.629" height="15.629" x="11.163" y="11.164" rx="7.815" />
@@ -115,7 +115,7 @@ function Daisyui({ className }: { className?: string }) {
           width="33.491"
           height="33.491"
           y="3.349"
-          fill-opacity="0.05"
+          fillOpacity="0.05"
           rx="16.746"
         />
         <rect width="33.491" height="33.491" y="2.233" rx="16.746" />
@@ -124,7 +124,7 @@ function Daisyui({ className }: { className?: string }) {
           d="M4.134 23.505c1.732-5.394 6.789-9.296 12.757-9.296c5.81 0 10.757 3.699 12.613 8.87c-1.732 5.393-6.79 9.296-12.757 9.296c-5.81 0-10.757-3.699-12.613-8.87"
         />
         <path
-          fill-opacity="0.35"
+          fillOpacity="0.35"
           d="M28.235 25.871a13.33 13.33 0 0 0 1.907-6.892c0-7.399-5.998-13.397-13.397-13.397S3.349 11.58 3.349 18.979c0 2.619.751 5.062 2.05 7.126a13.39 13.39 0 0 1 11.49-6.504c4.78 0 8.975 2.503 11.346 6.27"
         />
         <rect width="15.629" height="15.629" x="8.931" y="11.164" rx="7.815" />
