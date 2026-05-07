@@ -1,4 +1,3 @@
-import { t } from "i18next";
 import { Link } from "react-router-dom";
 
 type ButtonProps = {
