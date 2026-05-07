@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { IoMenu } from "react-icons/io5";
+import { Menu } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 import { useNavScroll } from "../../hooks/useNavScroll";
 import { useShareData } from "../../hooks/useShareData";
@@ -55,7 +55,7 @@ function Desktop({ setIsMobileMenuOpen }: DesktopProps) {
               className="text-foreground min-[950px]:hidden"
               onClick={() => setIsMobileMenuOpen(true)}
             >
-              <IoMenu size={28} />
+              <Menu size={28} />
             </button>
           </div>
         </div>

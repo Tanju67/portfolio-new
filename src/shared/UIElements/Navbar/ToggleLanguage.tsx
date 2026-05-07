@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { changeLanguage } from "i18next";
-import { FaGlobe } from "react-icons/fa";
+import { Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 function ToggleLanguage() {
@@ -9,7 +9,7 @@ function ToggleLanguage() {
 
   return (
     <div className="border-border group bg-primary text-surface relative flex items-center gap-3 rounded-full border px-3 py-1.5 backdrop-blur-sm">
-      <FaGlobe size={14} className="text-muted-foreground animate-pulse" />
+      <Globe size={14} className="text-muted-foreground animate-pulse" />
 
       <div className="flex items-center gap-2">
         <button
