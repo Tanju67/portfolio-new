@@ -1,0 +1,248 @@
+{
+  "burger-studio": {
+    "hero": {
+      "title": "Burger Studio",
+      "subtitle": "Full-Stack Plattform für Online-Essensbestellungen",
+      "badges": [
+        "TypeScript",
+        "Admin Dashboard",
+        "Order Tracking",
+        "Optimistic Updates",
+        "Cloudinary Uploads",
+        "Responsive UI"
+      ]
+    },
+
+    "about": {
+      "title": "Über das Projekt",
+      "text": "Burger Studio ist eine moderne Plattform für Online-Essensbestellungen, die mit React und TypeScript entwickelt wurde. Benutzer können Menükategorien durchsuchen, Produkte zum Warenkorb hinzufügen, Bestellungen aufgeben und ihre Bestellhistorie über eine saubere und responsive Benutzeroberfläche verfolgen. Das Projekt enthält außerdem ein Admin-Dashboard zur Verwaltung von Menüs, Produkten und Kundenbestellungen."
+    },
+
+    "challenge": {
+      "title": "Herausforderungen & Problemlösungen",
+      "text": "Eine der größten Herausforderungen bestand darin, den Server-State effizient zwischen verschiedenen Bereichen der Anwendung zu verwalten, insbesondere bei Create-, Update- und Delete-Operationen. Um die Reaktionsgeschwindigkeit und User Experience zu verbessern, habe ich Optimistic Updates mit Redux Toolkit Query implementiert. Eine weitere Herausforderung war das konsistente Error Handling innerhalb der gesamten Anwendung. Dieses Problem habe ich durch ein zentrales Fehlerbehandlungssystem mit Toast-Benachrichtigungen und speziellen Error-Pages gelöst."
+    },
+
+    "approach": {
+      "title": "Entwicklungsansatz",
+      "text": "Die Anwendung wurde mit React, TypeScript, Redux Toolkit Query und Tailwind CSS entwickelt, wobei der Fokus auf Skalierbarkeit, Wartbarkeit und Benutzerfreundlichkeit lag. Im Vergleich zu einer früheren Version desselben Projekts bietet diese Version eine sauberere Architektur, verbessertes State Management, wiederverwendbare UI-Patterns sowie strukturiertere Formularvalidierung mit React Hook Form und Zod."
+    },
+
+    "features": {
+      "title": "Hauptfunktionen",
+      "items": [
+        "Responsive Oberfläche für Online-Bestellungen",
+        "Warenkorb- und Checkout-System",
+        "Bestellhistorie und Statusverfolgung",
+        "Admin-Dashboard zur Verwaltung von Menüs, Produkten und Bestellungen",
+        "Bild-Upload-System mit Cloudinary-Integration",
+        "Demo-Benutzer- und Demo-Admin-Konten zum schnellen Testen",
+        "Globales Error Handling und Feedback-System",
+        "Optimistische Updates für schnellere Interaktionen",
+        "Formularvalidierung mit React Hook Form und Zod"
+      ]
+    },
+
+    "learnings": {
+      "title": "Was ich gelernt habe",
+      "text": "Dieses Projekt hat mein Verständnis für moderne Frontend-Architektur, API-Integration und skalierbares State Management erheblich verbessert. Der Neuaufbau des Projekts von Grund auf hat mir außerdem geholfen, Schwächen meiner früheren Implementierung zu erkennen und die Anwendung mit saubererer Logik, besseren UX-Entscheidungen und wartbarerem Code neu zu gestalten."
+    },
+
+    "results": {
+      "title": "Ergebnisse",
+      "text": "Das Endergebnis ist eine responsive und produktionsnahe Frontend-Anwendung, die fortgeschrittenes Client-Side State Management, strukturierte Formularverarbeitung, wiederverwendbare Komponentenarchitektur und realistische CRUD-Workflows demonstriert. Das Projekt zeigt meine Fähigkeit, skalierbare Benutzeroberflächen mit modernen React-Technologien zu entwickeln."
+    },
+
+    "evolution": {
+      "title": "Weiterentwicklung des Projekts",
+      "text": "Dieses Projekt ist eine vollständige Neuimplementierung einer älteren Version, die ich während meines Lernprozesses entwickelt habe. Durch den Neuaufbau konnte ich die Architektur, das State Management, das Error Handling und die allgemeine Benutzererfahrung mit moderneren React-Patterns deutlich verbessern."
+    }
+  },
+  "burger-studio-api": {
+    "hero": {
+      "title": "Burger Studio API",
+      "subtitle": "Skalierbare Backend-Architektur für eine Online-Essensbestellplattform",
+      "badges": [
+        "TypeScript",
+        "JWT Auth",
+        "Protected Routes",
+        "MVC Architecture",
+        "Swagger Docs"
+      ]
+    },
+
+    "about": {
+      "title": "Über das Projekt",
+      "text": "Burger Studio API ist eine skalierbare Backend-Anwendung, die mit Node.js, Express.js und TypeScript entwickelt wurde. Die API unterstützt eine Food-Ordering-Plattform und übernimmt Authentifizierung, Produktverwaltung, Bestellprozesse, Bild-Uploads sowie rollenbasierten Zugriff. Das Projekt wurde mit Fokus auf Wartbarkeit, Sicherheit und eine strukturierte Architektur entwickelt."
+    },
+
+    "challenge": {
+      "title": "Herausforderungen & Problemlösungen",
+      "text": "Eine der größten Herausforderungen war die Entwicklung eines flexiblen Autorisierungssystems, das mehrere Benutzerrollen und unterschiedliche Route-Berechtigungen unterstützt. Verschiedene Endpunkte mussten unterschiedliche Zugriffsebenen für Admins, Test-Admins, authentifizierte Benutzer und öffentliche Nutzer haben. Dies wurde durch wiederverwendbare Authentifizierungs- und Autorisierungs-Middleware auf Basis von JWT gelöst. Eine weitere Herausforderung war ein konsistentes Error-Handling im gesamten System, das durch eine zentrale globale Fehler-Middleware gelöst wurde."
+    },
+
+    "approach": {
+      "title": "Entwicklungsansatz",
+      "text": "Das Backend wurde nach dem MVC-Architekturmuster entwickelt, um Business-Logik, Routing, Controller und Datenbanklogik klar zu trennen. TypeScript wurde eingesetzt, um die Wartbarkeit und Typsicherheit zu erhöhen. MongoDB und Mongoose wurden für die Datenmodellierung verwendet, während Zod für strukturierte und zuverlässige Validierung der Requests sorgte. Zusätzlich wurde die API mit Swagger dokumentiert, um die Entwicklererfahrung und Wartbarkeit zu verbessern."
+    },
+
+    "features": {
+      "title": "Hauptfunktionen",
+      "items": [
+        "RESTful API-Architektur",
+        "JWT-basierte Authentifizierung",
+        "Rollenbasierte Autorisierung und geschützte Routen",
+        "Zentrale Error-Handling-Middleware",
+        "Request-Validierung mit Zod",
+        "MongoDB-Integration mit Mongoose",
+        "Bildoptimierung mit Sharp",
+        "Cloudinary-Integration für Medienverwaltung",
+        "Swagger API-Dokumentation",
+        "Strukturierte MVC-Architektur"
+      ]
+    },
+
+    "security": {
+      "title": "Authentifizierung & Sicherheit",
+      "text": "Die Anwendung verwendet JWT-Authentifizierung kombiniert mit rollenbasierter Autorisierung, um geschützte Routen abzusichern. Unterschiedliche Zugriffsebenen wurden für Admins, Demo-Admins, authentifizierte Nutzer und öffentliche Nutzer implementiert. Die Middleware-basierte Architektur ermöglicht eine sichere und wiederverwendbare Absicherung der Routen."
+    },
+
+    "architecture": {
+      "title": "Architektur & Skalierbarkeit",
+      "text": "Das Projekt folgt dem MVC-Muster, um eine klare Trennung zwischen Controllern, Services, Routen und Datenbanklogik sicherzustellen. Diese Struktur verbessert Skalierbarkeit, Lesbarkeit und langfristige Wartbarkeit und sorgt für eine saubere Codebasis."
+    },
+
+    "learnings": {
+      "title": "Was ich gelernt habe",
+      "text": "Dieses Projekt hat mein Verständnis für Backend-Architektur, Authentifizierungsprozesse, Middleware-Design und API-Sicherheit deutlich verbessert. Der Aufbau eines vollständig strukturierten Backends mit TypeScript hat mir außerdem geholfen, skalierbare Server-Architekturen und sauberes API-Design besser zu verstehen."
+    },
+
+    "results": {
+      "title": "Ergebnisse",
+      "text": "Das Endergebnis ist ein produktionsnahes Backend-System mit sicherer Authentifizierung, skalierbarer API-Architektur, strukturierter Validierung und wartbarer Codeorganisation. Das Projekt zeigt meine Fähigkeit, moderne Backend-Anwendungen mit Node.js und TypeScript zu entwickeln."
+    }
+  },
+  "anidex": {
+    "hero": {
+      "title": "AniDex",
+      "subtitle": "Moderne Anime-Discovery-Plattform basierend auf der Jikan API",
+      "badges": [
+        "TypeScript",
+        "Infinite Scroll",
+        "Google Auth",
+        "Custom Slider",
+        "Responsive UI"
+      ]
+    },
+
+    "about": {
+      "title": "Über das Projekt",
+      "text": "AniDex ist eine moderne Anime-Discovery-Plattform, inspiriert von Crunchyroll. Sie wurde mit React, TypeScript und der Jikan API entwickelt, um Nutzern Echtzeit-Anime-Daten in einer sauberen und responsiven Oberfläche bereitzustellen. Nutzer können trendende, hoch bewertete und neu erschienene Anime entdecken, Inhalte nach Genres filtern und zwischen Serien, Filmen und allgemeinen Kategorien suchen."
+    },
+
+    "features": {
+      "title": "Hauptfunktionen",
+      "items": [
+        "Trending-, Top-Rated- und neue Anime-Listen",
+        "Genre-basiertes Filtersystem",
+        "Erweiterte Suche mit kategorisierten Ergebnissen",
+        "Detailseiten mit Trailern und Episoden",
+        "Charakter- und Synchronsprecher-Informationen",
+        "Bewertungen und verwandte News-Bereiche",
+        "Watchlist mit Backend-Speicherung",
+        "Google-Authentifizierung und eigenes Login-System",
+        "Demo-User für schnelles Testen",
+        "Infinite-Scroll-Paginierung"
+      ]
+    },
+
+    "architecture": {
+      "title": "Architektur & Datenstrategie",
+      "text": "Das Projekt verwendet Redux Toolkit Query für Datenabrufe und Caching, wodurch die Performance verbessert und unnötige API-Anfragen reduziert werden. Infinite Scroll ersetzt die klassische Pagination und sorgt für ein flüssigeres Nutzererlebnis. Die Architektur ist darauf ausgelegt, API-Anfragen zu minimieren und Caching effizient zu nutzen."
+    },
+
+    "challenge": {
+      "title": "Herausforderungen & Problemlösungen",
+      "text": "Eine der größten Herausforderungen waren die Rate Limits der Jikan API, die nur eine begrenzte Anzahl an Requests pro Sekunde erlauben. In früheren Versionen führte dies häufig zu 429-Fehlern und einer schlechten User Experience. Um das Problem zu lösen, habe ich Request-Limiting, Infinite-Scroll-Fetching und RTK Query Caching implementiert. Zusätzlich wurden Retry-Mechanismen eingeführt, um fehlgeschlagene Requests automatisch bis zu dreimal zu wiederholen. Schließlich habe ich Rate-Limits nicht mehr als Fehler, sondern als Systembedingung betrachtet und das UX-Design entsprechend angepasst."
+    },
+
+    "ux": {
+      "title": "User Experience Verbesserungen",
+      "text": "Statt klassischer Pagination wurde Infinite Scroll implementiert, um ein flüssigeres Browsing-Erlebnis zu ermöglichen. Das Error-Handling wurde so angepasst, dass Nutzer nicht unnötig auf Fehlerseiten weitergeleitet werden. Nicht-kritische API-Fehler werden nun elegant im UI abgefangen, was die Nutzererfahrung deutlich verbessert."
+    },
+
+    "learnings": {
+      "title": "Was ich gelernt habe",
+      "text": "Dieses Projekt hat mir ein tiefes Verständnis für API-Limits, Caching-Strategien und Performance-Optimierung in Frontend-Anwendungen vermittelt. Außerdem habe ich gelernt, skalierbare UI-Systeme mit RTK Query zu entwickeln, mit Rate-Limits umzugehen und datenintensive Interfaces benutzerfreundlich zu gestalten."
+    },
+
+    "results": {
+      "title": "Ergebnis",
+      "text": "AniDex bietet ein modernes und flüssiges Anime-Browsing-Erlebnis mit optimierter Datenabfrage, responsivem Design und skalierbarer Architektur. Das Projekt zeigt meine Fähigkeit, mit realen API-Beschränkungen zu arbeiten und produktionsreife Frontend-Anwendungen zu entwickeln."
+    }
+  },
+  "anidex-api": {
+    "hero": {
+      "title": "AniDex API",
+      "subtitle": "Leichtgewichtiges Backend für eine Anime-Discovery-Plattform",
+      "badges": [
+        "TypeScript",
+        "JWT Auth",
+        "Google OAuth",
+        "Zod Validation",
+        "Watchlist API",
+        "Swagger Docs"
+      ]
+    },
+
+    "about": {
+      "title": "Über das Projekt",
+      "text": "AniDex API ist ein leichtgewichtiges Backend für eine moderne Anime-Discovery-Plattform. Es wurde mit Node.js, Express und TypeScript entwickelt und unterstützt Authentifizierung, Benutzerverwaltung und Watchlist-Funktionalität. Nutzer können Anime zu ihrer Watchlist hinzufügen, speichern und entfernen."
+    },
+
+    "challenge": {
+      "title": "Herausforderungen & Problemlösungen",
+      "text": "Eine der größten Herausforderungen war die Entwicklung eines sicheren Authentifizierungssystems mit JWT und Google OAuth sowie die Verwaltung geschützter Routen für authentifizierte Benutzer. Zusätzlich musste eine saubere und skalierbare Middleware-Struktur aufgebaut werden, um Fehler zentral zu behandeln und die API konsistent zu halten. Diese Herausforderungen wurden durch modulare Architektur, wiederverwendbare Middleware und klare Trennung der Verantwortlichkeiten im MVC-Pattern gelöst."
+    },
+
+    "approach": {
+      "title": "Entwicklungsansatz",
+      "text": "Das Backend wurde mit einer klaren, modularen Struktur aufgebaut. Express dient als API-Framework, MongoDB als Datenbank und Mongoose für die Modellierung. TypeScript sorgt für Typsicherheit, während Zod für strukturierte Validierung der Requests verwendet wird. Die Authentifizierung basiert auf JWT und Google OAuth."
+    },
+
+    "features": {
+      "title": "Hauptfunktionen",
+      "items": [
+        "JWT-basierte Authentifizierung",
+        "Google OAuth Login",
+        "Watchlist-System für Anime",
+        "Hinzufügen und Entfernen von Favoriten",
+        "MongoDB Integration mit Mongoose",
+        "Validierung mit Zod",
+        "REST API Struktur",
+        "TypeScript-basierte Architektur",
+        "Swagger API-Dokumentation"
+      ]
+    },
+
+    "security": {
+      "title": "Authentifizierung & Sicherheit",
+      "text": "Die Anwendung nutzt JWT für sichere Authentifizierung sowie Google OAuth als zusätzliche Login-Methode. Geschützte Routen stellen sicher, dass nur authentifizierte Benutzer Zugriff auf Watchlist-Funktionen haben. Die gesamte Sicherheitslogik ist über Middleware organisiert."
+    },
+
+    "learnings": {
+      "title": "Was ich gelernt habe",
+      "text": "Dieses Projekt hat mein Verständnis für API-Integration, Authentifizierungssysteme und Backend-Architektur deutlich verbessert. Besonders der Umgang mit externen API-Limits und die Kombination aus JWT und Google OAuth waren wichtige Lernpunkte."
+    },
+
+    "results": {
+      "title": "Ergebnisse",
+      "text": "Das Ergebnis ist ein stabiles und leichtgewichtiges Backend-System, das eine Anime-Discovery-Plattform zuverlässig unterstützt. Es zeigt meine Fähigkeit, skalierbare und saubere API-Architekturen mit modernen Backend-Technologien zu entwickeln."
+    }
+  },
+  "projectPage": {
+    "title": "Moderne Full-Stack-Anwendungen mit skalierbarer Architektur",
+    "subtitle": "Ausgewählte Projekte",
+    "text": "Eine Auswahl von Frontend- und Backend-Projekten mit Fokus auf reale Problemlösungen, skalierbare Architektur, responsive Benutzeroberflächen, API-Integrationen, Authentifizierungssysteme und moderne Entwicklungsprozesse."
+  }
+}

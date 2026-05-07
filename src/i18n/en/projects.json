@@ -1,0 +1,248 @@
+{
+  "burger-studio": {
+    "hero": {
+      "title": "Burger Studio",
+      "subtitle": "Full-Stack Food Ordering Platform",
+      "badges": [
+        "TypeScript",
+        "Admin Dashboard",
+        "Order Tracking",
+        "Optimistic Updates",
+        "Cloudinary Uploads",
+        "Responsive UI"
+      ]
+    },
+
+    "about": {
+      "title": "About the Project",
+      "text": "Burger Studio is a modern food ordering platform built with React and TypeScript. Users can browse menu categories, add products to their cart, place orders, and track their order history through a clean and responsive interface. The project also includes an admin dashboard for managing menus, products, and customer orders."
+    },
+
+    "challenge": {
+      "title": "Challenges & Problem Solving",
+      "text": "One of the main challenges was managing server state efficiently across different parts of the application, especially during create, update, and delete operations. To improve responsiveness and user experience, I implemented optimistic updates using Redux Toolkit Query. Another challenge was handling errors consistently across the application. I solved this by creating a centralized error handling approach using toast notifications and dedicated error pages depending on the scenario."
+    },
+
+    "approach": {
+      "title": "Development Approach",
+      "text": "The application was built using React, TypeScript, Redux Toolkit Query, and Tailwind CSS with a focus on scalability, maintainability, and user experience. Compared to an earlier version of the same project, this iteration introduced a cleaner architecture, improved state management, reusable UI patterns, and more structured form validation using React Hook Form and Zod."
+    },
+
+    "features": {
+      "title": "Key Features",
+      "items": [
+        "Responsive food ordering interface",
+        "Shopping cart and checkout workflow",
+        "Order history and order status tracking",
+        "Admin dashboard for managing menus, products, and orders",
+        "Image upload system with Cloudinary integration",
+        "Demo user and demo admin accounts for quick testing",
+        "Global error handling and user feedback system",
+        "Optimistic updates for faster interactions",
+        "Form validation using React Hook Form and Zod"
+      ]
+    },
+
+    "learnings": {
+      "title": "What I Learned",
+      "text": "This project significantly improved my understanding of modern frontend architecture, API integration, and scalable state management. Rebuilding the project from scratch also helped me recognize weaknesses in my earlier implementation and redesign the application with cleaner logic, better UX decisions, and more maintainable code patterns."
+    },
+
+    "results": {
+      "title": "Results",
+      "text": "The final result is a responsive and production-inspired frontend application that demonstrates advanced client-side state management, structured form handling, reusable component architecture, and real-world CRUD workflows. The project reflects my ability to build scalable user interfaces with modern React technologies."
+    },
+    "evolution": {
+      "title": "Evolution of the Project",
+      "text": "This project is a complete rebuild of an older version I created during my learning process. Rebuilding it allowed me to improve the architecture, state management, error handling, and overall user experience using more modern React patterns."
+    }
+  },
+
+  "burger-studio-api": {
+    "hero": {
+      "title": "Burger Studio API",
+      "subtitle": "Scalable Backend Architecture for Food Ordering Platform",
+      "badges": [
+        "TypeScript",
+        "JWT Auth",
+        "Protected Routes",
+        "MVC Architecture",
+        "Swagger Docs"
+      ]
+    },
+
+    "about": {
+      "title": "About the Project",
+      "text": "Burger Studio API is a scalable backend application built with Node.js, Express.js, and TypeScript. The API powers a food ordering platform by handling authentication, product management, order workflows, image uploads, and role-based access control. The project was designed with maintainability, security, and structured architecture in mind."
+    },
+
+    "challenge": {
+      "title": "Challenges & Problem Solving",
+      "text": "One of the main challenges was designing a flexible authorization system that supports multiple user roles and route permissions. Different endpoints needed different access levels for admins, test admins, authenticated users, and public visitors. This was solved through reusable authentication and authorization middleware using JWT-based access control. Another challenge was creating consistent error handling across the entire application, which was addressed by implementing centralized global error handling middleware."
+    },
+
+    "approach": {
+      "title": "Development Approach",
+      "text": "The backend was developed using a modular MVC architecture to separate business logic, routing, controllers, and database operations. TypeScript was used to improve maintainability and type safety throughout the application. MongoDB and Mongoose were used for database modeling, while Zod validation ensured structured and reliable request validation. The API was also documented using Swagger to improve developer experience and API maintainability."
+    },
+
+    "features": {
+      "title": "Key Features",
+      "items": [
+        "RESTful API architecture",
+        "JWT-based authentication system",
+        "Role-based authorization and protected routes",
+        "Global error handling middleware",
+        "Request validation with Zod",
+        "MongoDB database integration with Mongoose",
+        "Image upload optimization using Sharp",
+        "Cloudinary integration for media storage",
+        "Swagger API documentation",
+        "Structured MVC architecture"
+      ]
+    },
+
+    "security": {
+      "title": "Authentication & Security",
+      "text": "The application uses JWT authentication combined with role-based authorization middleware to secure protected routes. Different access levels were implemented for admins, demo admins, authenticated users, and public users. Middleware-based authentication architecture allowed secure and reusable route protection across the entire API."
+    },
+
+    "architecture": {
+      "title": "Architecture & Scalability",
+      "text": "The project follows the MVC pattern to maintain a clean separation of concerns between controllers, services, routes, and database logic. This structure improves scalability, readability, and long-term maintainability while keeping the codebase organized as the project grows."
+    },
+
+    "learnings": {
+      "title": "What I Learned",
+      "text": "This project significantly improved my understanding of backend architecture, authentication flows, middleware design, and API security. Building a fully structured backend system with TypeScript also helped me better understand scalable server-side development patterns and maintainable API design."
+    },
+
+    "results": {
+      "title": "Results",
+      "text": "The final result is a production-inspired backend system that provides secure authentication, scalable API architecture, structured validation, and maintainable code organization. The project demonstrates my ability to design and build modern backend applications using Node.js and TypeScript."
+    }
+  },
+  "anidex": {
+    "hero": {
+      "title": "AniDex",
+      "subtitle": "Modern Anime Discovery Platform powered by Jikan API",
+      "badges": [
+        "TypeScript",
+        "Infinite Scroll",
+        "Google Auth",
+        "Custom Slider",
+        "Responsive UI"
+      ]
+    },
+
+    "about": {
+      "title": "About the Project",
+      "text": "AniDex is a modern anime discovery platform inspired by Crunchyroll. It is built using React, TypeScript, and Jikan API to provide users with real-time anime data in a clean and responsive interface. Users can explore trending, top-rated, and newly released anime, filter content by genres, and search across series, movies, and general categories."
+    },
+
+    "features": {
+      "title": "Key Features",
+      "items": [
+        "Trending, top-rated and new anime listings",
+        "Genre-based filtering system",
+        "Advanced search with categorized results",
+        "Detailed anime pages with trailers and episodes",
+        "Character and voice actor information",
+        "Reviews and related news sections",
+        "Watchlist with backend persistence",
+        "Google authentication and custom login system",
+        "Demo user access for quick testing",
+        "Infinite scroll pagination system"
+      ]
+    },
+
+    "architecture": {
+      "title": "Architecture & Data Strategy",
+      "text": "The project uses Redux Toolkit Query for data fetching and caching, significantly improving performance and reducing unnecessary API calls. Infinite scroll was implemented to replace traditional pagination, providing a smoother user experience. The application structure is designed to minimize API requests and leverage caching effectively."
+    },
+
+    "challenge": {
+      "title": "Challenges & Problem Solving",
+      "text": "One of the biggest challenges was handling Jikan API rate limits, which restrict requests to a small number per second. In earlier versions, this caused frequent 429 errors and poor user experience. To solve this, I implemented request limiting, infinite scroll fetching, and RTK Query caching. Additionally, retry mechanisms were added to automatically retry failed requests up to three times. Eventually, I treated rate limiting not as an error condition but as a system constraint and redesigned the UX accordingly."
+    },
+
+    "ux": {
+      "title": "User Experience Improvements",
+      "text": "Instead of using traditional pagination, infinite scroll was implemented to create a smoother browsing experience. Error handling was redesigned to avoid redirecting users to error pages unnecessarily. Non-critical API failures are now handled gracefully in the UI, improving overall user experience."
+    },
+
+    "learnings": {
+      "title": "What I Learned",
+      "text": "This project helped me deeply understand API limitations, caching strategies, and performance optimization in frontend applications. I also gained experience in building scalable UI systems with RTK Query, handling rate limits intelligently, and designing user-friendly data-heavy interfaces."
+    },
+
+    "results": {
+      "title": "Results",
+      "text": "AniDex delivers a smooth and modern anime browsing experience with optimized data fetching, responsive design, and scalable architecture. It demonstrates my ability to work with real-world API constraints and build production-level frontend applications."
+    }
+  },
+  "anidex-api": {
+    "hero": {
+      "title": "AniDex API",
+      "subtitle": "Lightweight backend for an anime discovery platform",
+      "badges": [
+        "TypeScript",
+        "JWT Auth",
+        "Google OAuth",
+        "Zod Validation",
+        "Watchlist API",
+        "Swagger Docs"
+      ]
+    },
+
+    "about": {
+      "title": "About the Project",
+      "text": "AniDex API is a lightweight backend for a modern anime discovery platform. It was built with Node.js, Express, and TypeScript and provides authentication, user management, and watchlist functionality. Users can add, save, and remove anime from their personal watchlist."
+    },
+
+    "challenge": {
+      "title": "Challenges & Problem Solving",
+      "text": "One of the main challenges was building a secure authentication system using JWT and Google OAuth while managing protected routes for authenticated users. Additionally, a clean and scalable middleware architecture had to be implemented to handle errors centrally and maintain a consistent API structure. These challenges were solved using a modular architecture, reusable middleware, and a clear separation of concerns following the MVC pattern."
+    },
+
+    "approach": {
+      "title": "Development Approach",
+      "text": "The backend was built with a modular and structured architecture. Express was used as the API framework, MongoDB as the database, and Mongoose for data modeling. TypeScript ensured type safety, while Zod was used for structured request validation. Authentication is based on JWT and Google OAuth."
+    },
+
+    "features": {
+      "title": "Key Features",
+      "items": [
+        "JWT-based authentication",
+        "Google OAuth login",
+        "Anime watchlist system",
+        "Add and remove favorites",
+        "MongoDB integration with Mongoose",
+        "Request validation using Zod",
+        "REST API structure",
+        "TypeScript-based architecture",
+        "Swagger API documentation"
+      ]
+    },
+
+    "security": {
+      "title": "Authentication & Security",
+      "text": "The application uses JWT for secure authentication along with Google OAuth as an additional login method. Protected routes ensure that only authenticated users can access watchlist features. All security logic is handled through middleware."
+    },
+
+    "learnings": {
+      "title": "What I Learned",
+      "text": "This project significantly improved my understanding of API integration, authentication systems, and backend architecture. Working with JWT and Google OAuth together helped me better understand secure authentication flows and scalable backend design."
+    },
+
+    "results": {
+      "title": "Results",
+      "text": "The result is a stable and lightweight backend system that reliably supports an anime discovery platform. It demonstrates my ability to build clean, scalable API architectures using modern backend technologies."
+    }
+  },
+  "projectPage": {
+    "title": "Modern Full-Stack Applications Built with Scalable Architecture",
+    "subtitle": "Selected Projects",
+    "text": "A collection of frontend and backend projects focused on real-world problem solving, scalable architecture, responsive user interfaces, API integration, authentication systems, and modern development workflows."
+  }
+}

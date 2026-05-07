@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "footer": {
+    "about": "Full-stack developer focused on modern frontend engineering, scalable backend systems, and building production-inspired web applications with clean architecture and strong user experience.",
+    "copyright": " All rights reserved.",
+    "build": "Built with React, TypeScript, Tailwind CSS & i18next.",
+    "living": "Based in Kaiserslauter,Germany."
+  }
+}

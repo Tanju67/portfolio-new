@@ -1,0 +1,32 @@
+{
+  "project": {
+    "title": "Full-Stack Engineering in Practice",
+    "subtitle": "selected work",
+    "text": "Discover Burger Studio, a full-stack application where modern frontend engineering meets scalable backend architecture. Built with React, Node.js and real-world production patterns."
+  },
+
+  "skills": {
+    "subtitle": "technical toolkit",
+    "title": "Skills & Technologies",
+    "text": "A selection of modern technologies, tools, and development practices I use to build scalable frontend and backend applications."
+  },
+
+  "about": {
+    "subtitle": "About Me",
+    "title": "Full-Stack Developer Focused on Modern Web Architecture",
+    "text": "I build scalable frontend interfaces and backend systems with a strong focus on performance, maintainability, and user experience. Using technologies such as React, TypeScript, Node.js, and MongoDB, I create production-inspired applications that combine clean architecture with modern UI development."
+  },
+
+  "contact": {
+    "subtitle": "Let’s Work Together",
+    "title": "Building Modern Web Applications with Real-World Impact",
+    "text": "I’m always open to discussing new opportunities, collaborations, and challenging projects. Whether it’s frontend engineering, full-stack development, or scalable web applications, I enjoy turning ideas into reliable digital products."
+  },
+
+  "hero": {
+    "title": "Building Scalable Web Applications",
+    "subtitle": "Full Stack Developer",
+    "text": "I develop production-inspired full-stack applications using React,TypeScript, Node.js, and MongoDB — focusing on performance, clean architecture, authentication systems, and real-world user experience.",
+    "info": " Based in Germany • Open to Opportunities"
+  }
+}

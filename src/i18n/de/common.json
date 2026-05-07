@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projekte",
+    "skills": "Skills",
+    "about": "Über mich",
+    "contact": "Kontakt"
+  },
+
+  "footer": {
+    "about": "Full-Stack-Entwickler mit Fokus auf modernes Frontend-Engineering, skalierbare Backend-Systeme und die Entwicklung produktionsnaher Webanwendungen mit sauberer Architektur und erstklassiger User Experience.",
+    "copyright": "Alle Rechte vorbehalten.",
+    "build": "Erstellt mit React, TypeScript, Tailwind CSS & i18next.",
+    "living": "Ansässig in Kaiserslautern, Deutschland."
+  }
+}

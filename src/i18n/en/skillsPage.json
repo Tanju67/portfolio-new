@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Technologies & Development Stack",
+    "subtitle": "technical toolkit",
+    "text": "A broad collection of technologies, frameworks, and tools I use to build modern frontend interfaces, scalable backend systems, and full-stack web applications."
+  },
+  "section": {
+    "title": "Technologies Applied in Production-Inspired Projects",
+    "subtitle": "real-world usage",
+    "text": "A closer look at how these technologies were used across full-stack applications, API architectures, authentication systems, and scalable user interfaces."
+  }
+}

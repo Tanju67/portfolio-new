@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Technologien & Entwicklungs-Stack",
+    "subtitle": "technisches toolkit",
+    "text": "Eine breite Auswahl an Technologien, Frameworks und Tools, die ich für moderne Frontend-Oberflächen, skalierbare Backend-Systeme und Full-Stack-Webanwendungen verwende."
+  },
+  "section": {
+    "title": "Technologien im Einsatz in produktionsnahen Projekten",
+    "subtitle": "praxisnahe Anwendung",
+    "text": "Ein genauerer Einblick, wie diese Technologien in Full-Stack-Anwendungen, API-Architekturen, Authentifizierungssystemen und skalierbaren Benutzeroberflächen eingesetzt wurden."
+  }
+}

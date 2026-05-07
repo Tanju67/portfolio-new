@@ -1,0 +1,31 @@
+{
+  "project": {
+    "title": "Full-Stack-Engineering in der Praxis",
+    "subtitle": "ausgewählte Arbeiten",
+    "text": "Entdecke Burger Studio – eine Full-Stack-Anwendung, in der modernes Frontend-Engineering auf skalierbare Backend-Architektur trifft. Entwickelt mit React, Node.js und realen, produktionsnahen Entwicklungsprinzipien."
+  },
+
+  "skills": {
+    "subtitle": "technisches toolkit",
+    "title": "Fähigkeiten & Technologien",
+    "text": "Eine Auswahl moderner Technologien, Tools und Entwicklungspraktiken, die ich für den Aufbau skalierbarer Frontend- und Backend-Anwendungen verwende."
+  },
+
+  "about": {
+    "subtitle": "Über mich",
+    "title": "Full-Stack-Entwickler mit Fokus auf moderne Web-Architektur",
+    "text": "Ich entwickle skalierbare Frontend-Oberflächen und Backend-Systeme mit einem starken Fokus auf Performance, Wartbarkeit und Benutzererfahrung. Mit Technologien wie React, TypeScript, Node.js und MongoDB erstelle ich produktionsnahe Anwendungen, die saubere Architektur mit moderner UI-Entwicklung verbinden."
+  },
+
+  "contact": {
+    "subtitle": "Lass uns zusammenarbeiten",
+    "title": "Moderne Webanwendungen mit echtem Mehrwert entwickeln",
+    "text": "Ich bin jederzeit offen für neue Möglichkeiten, spannende Kooperationen und anspruchsvolle Projekte. Ob Frontend-Engineering, Full-Stack-Entwicklung oder skalierbare Webanwendungen – ich entwickle gerne zuverlässige digitale Produkte mit modernen Webtechnologien."
+  },
+  "hero": {
+    "title": "Skalierbare Webanwendungen entwickeln",
+    "subtitle": "Full-Stack-Entwickler",
+    "text": "Ich entwickle produktionsnahe Full-Stack-Anwendungen mit React, TypeScript, Node.js und MongoDB – mit Fokus auf Performance, saubere Architektur, Authentifizierungssysteme und echte Benutzererfahrung.",
+    "info": "Sitz in Deutschland • Offen für neue Möglichkeiten"
+  }
+}
