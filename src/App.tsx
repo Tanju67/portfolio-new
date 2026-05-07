@@ -1,7 +1,8 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage";
 import RootLayout from "./pages/RootLayout";
+import useDarkMode from "./shared/hooks/useDarkMode";
 const LandingPage = lazy(() => import("./pages/LandingPage"));
 const ProjectsPage = lazy(() => import("./pages/ProjectsPage"));
 const SkillsPage = lazy(() => import("./pages/SkillsPage"));
@@ -53,6 +54,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  useDarkMode();
   return (
     <Suspense fallback={null}>
       <RouterProvider router={router} />
